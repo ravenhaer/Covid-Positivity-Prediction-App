@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <h1 class="text-center">Covid App</h1>
+
+    <form action="predict/">
+        <table class="table table-hover">
+            <tr>
+                <td>Enter Age</td>
+                <td>
+                    <input class="form-control" type="text" placeholder="Enter Age" name="age">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Body Temperature</td>
+                <td>
+                    <input class="form-control" type="text" placeholder="Enter Body Temp" name="temp">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select class="form-control" name="gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Transgender">Transgender</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Body Pain</td>
+                <td>
+                    <select class="form-control" name="body">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Sore Throat</td>
+                <td>
+                    <select class="form-control" name="sore">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Nasal Congestion</td>
+                <td>
+                    <select class="form-control" name="nasal">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Difficulty in Breathing</td>
+                <td>
+                    <select class="form-control" name="diff">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Runny Nose</td>
+                <td>
+                    <select class="form-control" name="runny">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Severity</td>
+                <td>
+                    <select class="form-control" name="sev">
+                        <option value="Mild">Mild</option>
+                        <option value="Moderate">Moderate</option>
+                        <option value="Severe">Severe</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Contact With Covid Patient</td>
+                <td>
+                    <select class="form-control" name="contact">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="not known">Not Known</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input class="btn btn-primary" type="submit">
+                    <input class="btn btn-danger" type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
